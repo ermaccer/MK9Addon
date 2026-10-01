@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{0687bd68-4c3b-44a6-aa87-4ef94b213620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plugin">
+      <UniqueIdentifier>{b6ae6e85-2183-4d56-8e98-c2c10ef23b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{d019de5f-94e8-4a25-bfce-d64e7fe8381c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mk">
+      <UniqueIdentifier>{87f3993a-5b1f-4a81-ad34-d1a704e20d5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\HookInit.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\IniReader.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\MemoryMgr.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Patterns.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Trampoline.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\addr.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\PatternSolver.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\log.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\PlayerInfo.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\MKObject.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\MKCharacter.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\Hooks.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\MKScript.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\MKScriptEx.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\Engine.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\core.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mk\GameInfo.h">
+      <Filter>Header Files\mk</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\StageLoader.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\IniReader.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Patterns.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\addr.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\PatternSolver.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\log.cpp">
+      <Filter>Header Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="mk\PlayerInfo.cpp">
+      <Filter>Header Files\mk</Filter>
+    </ClCompile>
+    <ClCompile Include="mk\MKScript.cpp">
+      <Filter>Header Files\mk</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Hooks.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\MKScriptEx.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="mk\Engine.cpp">
+      <Filter>Header Files\mk</Filter>
+    </ClCompile>
+    <ClCompile Include="mk\GameInfo.cpp">
+      <Filter>Header Files\mk</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\StageLoader.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
