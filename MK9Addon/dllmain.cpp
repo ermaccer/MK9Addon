@@ -24,7 +24,7 @@ int MKOCheckForRawFirst(char* mkoName)
 
     sprintf(path, "MKScript\\%s", mkoName);
 
-   // printf("Testing %s - %d\n", mkoName, PathFileExistsA(path));
+    eLog::Message(__FUNCTION__, "Testing %s - %d\n", mkoName, PathFileExistsA(path));
 
 
     return PathFileExistsA(path);
