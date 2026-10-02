@@ -10,7 +10,7 @@ MK9 supports loading .mko files from MKScript folder, however unlike future game
 
 ## Stage List editor
 
-Hardcoded stage lists can be easily edited from text .cfg files stored in Data folder. Ladder pool and Select pool can be edited here, note that Select pool doesn't immediately mean the stage will be 100% recognized by select (PlayerSelect.mko has its own internal list).
+Hardcoded stage lists can be easily edited from text .cfg files stored in Data folder. Ladder pool and Select pool can be edited here, note that Select pool doesn't immediately mean the stage will be 100% recognized by select (PlayerSelect.mko has its own internal list). Ladder list also applies to attract mode.
 
 ## Kratos PC support
 
